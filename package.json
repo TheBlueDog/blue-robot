@@ -1,0 +1,25 @@
+{
+  "name": "blue-robot",
+  "version": "1.0.0",
+  "description": "Sandbox for Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBlueDog/blue-robot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBlueDog/blue-robot/issues"
+  },
+  "homepage": "https://github.com/TheBlueDog/blue-robot#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.4"
+  }
+}
