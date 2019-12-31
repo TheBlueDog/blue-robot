@@ -2,7 +2,7 @@
 @tailwind components;
 
 .btn {
-    @apply
+    @apply 
 }
 
 @tailwind utilities;

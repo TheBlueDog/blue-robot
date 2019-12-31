@@ -134,8 +134,21 @@ module.exports = {
         'darker': '#384813',
         'darkest': '#121A00',
       },
+      app: {
+        'brand-primary': '#00619B',
+        'brand-primary-dark': '#00304D', 
+        'brand-primary-highlight': '#77BDE7', 
+        'brand-primary-light': '#C8E3F5',
+        'brand-secondary': '#FCC582',
+      },
     },
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: [
+          'Avenir Next',
+        ],
+      },
+    }
   },
   variants: {
     backgroundColor: ['responsive', 'hover', 'focus', 'active']
