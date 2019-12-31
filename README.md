@@ -28,5 +28,5 @@
 
 ## Booting up
 
-- Run `live-server doc`
+- Run `live-server docs`
 - Run `npm run watch`
