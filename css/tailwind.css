@@ -1,8 +1,53 @@
 @tailwind base;
 @tailwind components;
 
-.btn {
-    @apply 
-}
+  @screen sm {
+    .action-bar {
+      @apply hidden;
+    }
+    .action-dark {
+      @apply hidden;
+    }
+    .action-label {
+      @apply hidden;
+    }
+  }
+
+  @screen md {
+    .action-bar {
+      @apply block h-full w-12;
+    }
+    .action-dark {
+      @apply block w-full bg-gray-darker fill-current text-white;
+    }
+    .action-icon {
+      @apply block w-12 h-12 p-4;
+    }
+  }
+
+  @screen xl {
+    .action-bar {
+      @apply w-32;
+    }
+    .action-dark {
+      @apply inline-flex items-center;
+    }
+    .action-label {
+      @apply block text-xs font-normal pr-4;
+    }
+  }
+
+  .action-bar-dark {
+    @apply bg-gray-darker border-r border-gray-darkest;
+  }
+  .action-bar-light {
+    @apply bg-white border-r border-gray-lighter;
+  }
+  .action-dark:hover {
+    @apply bg-gray-darkest;
+  }
+  .action-dark:active {
+   @apply bg-black text-app-brand-primary-highlight;
+  }
 
 @tailwind utilities;

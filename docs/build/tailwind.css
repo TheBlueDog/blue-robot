@@ -627,7 +627,82 @@ video {
   }
 }
 
-.btn {
+@media (min-width: 640px) {
+  .action-bar {
+    display: none;
+  }
+
+  .action-dark {
+    display: none;
+  }
+
+  .action-label {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .action-bar {
+    display: block;
+    height: 100%;
+    width: 3rem;
+  }
+
+  .action-dark {
+    display: block;
+    width: 100%;
+    background-color: #404040;
+    fill: currentColor;
+    color: #FFFFFF;
+  }
+
+  .action-icon {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .action-bar {
+    width: 8rem;
+  }
+
+  .action-dark {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  .action-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding-right: 1rem;
+  }
+}
+
+.action-bar-dark {
+  background-color: #404040;
+  border-right-width: 1px;
+  border-color: #2B2B2B;
+}
+
+.action-bar-light {
+  background-color: #FFFFFF;
+  border-right-width: 1px;
+  border-color: #DFDFDF;
+}
+
+.action-dark:hover {
+  background-color: #2B2B2B;
+}
+
+.action-dark:active {
+  background-color: #151515;
+  color: #77BDE7;
 }
 
 .sr-only {
