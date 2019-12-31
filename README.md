@@ -14,3 +14,13 @@
 - Create `index.html`
 - `npm install -g live-server`
 - Run `live-server public`
+
+### Enable utilities for background colors
+
+- Enable `active` variants for background colors in `tailwind.config` by adding `backgroundColor: ['responsive', 'hover', 'focus', 'active']`. (When one utility is added, you need to add all.)
+- When changes are made to the config run `npm run build`
+
+### Watch CSS
+
+- Add `watch` line to package.json to monitor changes in the `tailwind.css`
+- Run `npm run watch`
