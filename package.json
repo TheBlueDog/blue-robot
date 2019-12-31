@@ -1,11 +1,11 @@
 {
   "name": "blue-robot",
   "version": "1.0.0",
-  "description": "Sandbox for Tailwind",
+  "description": "Blue Robot",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
-    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+    "build": "postcss css/tailwind.css -o doc/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o doc/build/tailwind.css --watch"
   },
   "repository": {
     "type": "git",

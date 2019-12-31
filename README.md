@@ -13,7 +13,7 @@
 - Run `npm run build`
 - Create `index.html`
 - `npm install -g live-server`
-- Run `live-server public`
+- Run `live-server doc`
 
 ### Enable utilities for background colors
 
@@ -23,4 +23,10 @@
 ### Watch CSS
 
 - Add `watch` line to package.json to monitor changes in the `tailwind.css`
+- Run `npm run watch`
+
+
+## Booting up
+
+- Run `live-server doc`
 - Run `npm run watch`
