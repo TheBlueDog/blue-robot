@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie-edge">
-	<title>Blue Robot: Page Layout</title>
+	<title>Blue Robot: Form Editor</title>
 	<link rel="stylesheet" type="text/css" href="build/tailwind.css">
 </head>
 <body class="font-sans bg-white border-t-2 border-app-brand-primary">
@@ -59,21 +59,225 @@
     <!-- FLEX-BOX: ACTION-BAR: END -->
 
     <!-- FLEX-BOX: PANEL: START -->
-    <div class="bg-gray-lightest border-r border-gray-lighter w-1/6 flex-none hidden lg:block p-10 overflow-scroll">
-      <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat leo nibh, commodo feugiat diam tristique vulputate. Phasellus euismod magna sed diam suscipit luctus. Mauris pulvinar, enim non volutpat lacinia, lacus leo volutpat nunc, sit amet aliquet diam orci eu tortor. Nullam et augue nisl. Aliquam ut laoreet libero. Vestibulum finibus, arcu quis fringilla dapibus, arcu purus porttitor neque, ut semper est justo non dolor. Mauris ultrices ipsum quis lorem sollicitudin, eget faucibus mi laoreet. Quisque eu dapibus erat, accumsan malesuada erat.</p>
+	  <div class="bg-gray-lightest border-r border-gray-lighter w-1/6 flex-none hidden lg:block overflow-scroll">
+      <!-- PANEL HEADER -->
+      <div class="panelHeader">
+        <span class="panelTitle">Layers</span>
+      </div>
+
+      <!-- SECTION HEADER -->
+      <div class="flex flex-row py-3 px-4 bg-white w-full">
+        <div class="flex-none w-6 h-6 mr-2 fill-current text-gray-base">
+          <svg viewBox="0 0 24 24">
+            <path d="M21.357 13.922L23.5 15.19 12 22C.2 15.01 1.428 15.74.5 15.188c.527-.309.262-.15 2.145-1.266l.981.58-1.161.688L12 20.838l9.536-5.648-1.161-.687zm-1.23-3.267l1.41.835-9.536 5.648-9.536-5.648 1.41-.835-.98-.58C.736 11.351 1.05 11.165.5 11.487c.927.553-.3-.176 11.5 6.813l11.5-6.81-2.392-1.416zM12 .686C-.111 7.859 1.429 6.948.5 7.493c.926.55-.302-.178 11.5 6.812l11.5-6.81zm-9.536 6.81C3.049 7.148 12 1.848 12 1.848l9.536 5.646L12 13.142z"/>
+          </svg>
+        </div>
+        <div class="flex-grow text-sm text-gray-darker font-medium">
+          <span>Editable layers</span>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-darker">
+          <svg viewBox="0 0 16 16">
+            <path d="M8 11.707l-4-4V6.293l4 4 4-4v1.414z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Layer Card -->
+      <div class="py-3 px-4 bg-gray-lightest hover:bg-gray-lighter my-2">
+        <span class="text-xs font-normal text-gray-darker">Commercial Buildings</span>
+      </div>
+      <!-- Layer Card -->
+      <div class="py-3 px-4 bg-gray-lightest hover:bg-gray-lighter my-2">
+        <span class="text-xs font-normal text-gray-darker">Residential Buildings</span>
+      </div>
+      <!-- Layer Card -->
+      <div class="py-3 px-4 bg-gray-lightest hover:bg-gray-lighter my-2">
+        <span class="text-xs font-normal text-gray-darker">Public Facilities</span>
+      </div>
+
+
+      <!-- SECTION HEADER -->
+      <div class="flex flex-row py-3 px-4 bg-white w-full">
+        <div class="flex-none w-6 h-6 mr-2 fill-current text-gray-base">
+          <svg viewBox="0 0 24 24">
+            <path d="M21.357 13.922L23.5 15.19 12 22C.2 15.01 1.428 15.74.5 15.188c.527-.309.262-.15 2.145-1.266l.981.58-1.161.688L12 20.838l9.536-5.648-1.161-.687zm-1.23-3.267l1.41.835-9.536 5.648-9.536-5.648 1.41-.835-.98-.58C.736 11.351 1.05 11.165.5 11.487c.927.553-.3-.176 11.5 6.813l11.5-6.81-2.392-1.416zM12 .686C-.111 7.859 1.429 6.948.5 7.493c.926.55-.302-.178 11.5 6.812l11.5-6.81zm-9.536 6.81C3.049 7.148 12 1.848 12 1.848l9.536 5.646L12 13.142z"/>
+          </svg>
+        </div>
+        <div class="flex-grow text-sm text-gray-darker font-medium">
+          <span>Reference layers</span>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-darker">
+          <svg viewBox="0 0 16 16">
+            <path d="M8 11.707l-4-4V6.293l4 4 4-4v1.414z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Layer Card -->
+      <div class="py-3 px-4 bg-gray-lightest hover:bg-gray-lighter my-2">
+        <span class="text-xs font-normal text-gray-darker">Layer Name</span>
+      </div>
     </div>
     <!-- FLEX-BOX: PANEL: END -->
 
     <!-- FLEX-BOX: CANVAS: START -->
-    <div class="overflow-scroll flew-grow p-10 overflow-scroll">
-      <p class="py-2">Aliquam suscipit, ipsum nec fermentum euismod, quam nisl fermentum nisl, a volutpat purus neque id enim. Praesent blandit vulputate turpis, et ultricies mi condimentum sed. Morbi tempor purus ac arcu posuere, vitae facilisis mi eleifend. Sed eleifend faucibus nunc, at maximus metus posuere nec. Vivamus vulputate ornare augue vitae elementum. Proin eu tristique nisl. Donec quis consectetur enim. Vivamus commodo arcu magna, sed convallis sapien commodo in. Nunc sodales aliquam lacus a aliquam. Curabitur odio felis, lobortis sit amet nisl in, bibendum finibus dui. Nullam sollicitudin ante posuere, sagittis ante vel, euismod justo. Fusce vulputate purus eu ante scelerisque, et imperdiet lacus pellentesque. Morbi iaculis ante a vehicula cursus. </p>
-      <p class="py-2">In fringilla justo odio. Morbi mattis metus quis risus ultricies, id efficitur arcu vulputate. Proin id mattis lectus, eu rutrum lectus. Quisque vel tellus et augue faucibus pharetra. Duis pellentesque leo sodales odio pellentesque, eget egestas urna cursus. Duis posuere, eros non euismod pretium, ligula libero efficitur libero, et interdum urna purus ac justo. Vestibulum vitae dui at lectus malesuada gravida id sit amet lorem. Suspendisse laoreet interdum vestibulum.</p>
+    <div class="overflow-scroll flew-grow overflow-scroll">
+      <!-- PANEL HEADER -->
+      <div class="panelHeader">
+        <span class="panelTitle">Header</span>
+      </div>
+      
+      <div class="mt-16">
+
+        <!-- FORM ELEMENT -->
+        <div class="flex flex-row items-center w-full mt-8">
+          <div class="flex-none pl-8 pr-6">
+            <svg class="w-4 fill-current text-gray-light hover:text-black" viewBox="0 0 16 16"><path d="M5.95 1.5A1.45 1.45 0 1 1 4.5.05 1.45 1.45 0 0 1 5.95 1.5zM10.5.05a1.45 1.45 0 1 0 1.45 1.45A1.45 1.45 0 0 0 10.5.05zm-6 6A1.45 1.45 0 1 0 5.95 7.5 1.45 1.45 0 0 0 4.5 6.05zm6 0a1.45 1.45 0 1 0 1.45 1.45 1.45 1.45 0 0 0-1.45-1.45zm-6 6a1.45 1.45 0 1 0 1.45 1.45 1.45 1.45 0 0 0-1.45-1.45zm7.45 1.45a1.45 1.45 0 1 0-1.45 1.45 1.45 1.45 0 0 0 1.45-1.45z"/></svg>
+          </div>
+          <div class="flex-grow">
+            <div>
+              <label class="block text-black text-sm font-light mb-1" for="fieldname_1">Label</label>
+              <input class="appearance-none bg-white border border-gray-lighter rounded-sm text-xs w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline" id="fieldname_1" type="text">
+              <p class="text-gray- text-xs mt-1">This is your hint.</p>
+            </div>
+          </div>
+          <div class="flex-none pl-6 pr-8">
+            <svg class="w-4 fill-current text-gray-light hover:text-black" viewBox="0 0 16 16"><path d="M13.75 8L8 2.25V6H2v4h6v3.75zM3 9V7h6V4.664L12.336 8 9 11.336V9z"/></svg>
+          </div>
+        </div>
+
+        <p>Aliquam suscipit, ipsum nec fermentum euismod, quam nisl fermentum nisl, a volutpat purus neque id enim. Praesent blandit vulputate turpis, et ultricies mi condimentum sed. Morbi tempor purus ac arcu posuere, vitae facilisis mi eleifend. Sed eleifend faucibus nunc, at maximus metus posuere nec. Vivamus vulputate ornare augue vitae elementum. Proin eu tristique nisl. Donec quis consectetur enim. Vivamus commodo arcu magna, sed convallis sapien commodo in. Nunc sodales aliquam lacus a aliquam. Curabitur odio felis, lobortis sit amet nisl in, bibendum finibus dui. Nullam sollicitudin ante posuere, sagittis ante vel, euismod justo. Fusce vulputate purus eu ante scelerisque, et imperdiet lacus pellentesque. Morbi iaculis ante a vehicula cursus. </p>
+      </div>
     </div>
     <!-- FLEX-BOX: CANVAS: END -->
 
     <!-- FLEX-BOX: PANEL: START -->
-    <div class="bg-gray-lightest border-l border-gray-lighter hidden md:block md:w-2/5 lg:w-2/6 flex-none p-10 overflow-scroll">
-      <p class="py-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut varius sem ultricies, vehicula est fringilla, feugiat sem. Sed sed nibh a lectus ornare commodo vel eget lorem. Nulla sit amet tortor odio. Etiam suscipit est urna, a auctor massa interdum vel. Nunc fermentum ante vitae eros porta, sed porta tortor elementum. Integer vel augue tempus, congue elit in, feugiat tellus. Sed bibendum eros justo, sit amet luctus risus luctus eu. Vestibulum vehicula finibus dolor in convallis. Aenean egestas nisl neque, eu cursus leo commodo vitae. Nunc a aliquet massa. Quisque ac imperdiet ex, tincidunt blandit justo. </p>
+    <div class="bg-gray-lightest border-l border-gray-lighter hidden md:block md:w-2/5 lg:w-2/6 flex-none overflow-scroll">
+      <!-- PANEL HEADER -->
+      <div class="panelHeader">
+        <span class="panelTitle">Attributes</span>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+      <!-- ATTRIBUTE CARD -->
+      <div class="flex flex-row items-center py-2 px-4 bg-white border-b border-gray-lighter hover:bg-gray-lightest w-full">
+        <div class="flex-grow">
+          <ul class="text-xs">
+            <li class="text-black">Display Name</li>
+            <li class="text-gray- font-mono">{fieldname}</li>
+          </ulclass="text-xs font-normal>
+        </div>
+        <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+          <svg viewBox="0 0 16 16">
+            <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+            <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+          </svg>
+        </div>
+      </div>
+
     </div>
     <!-- FLEX-BOX: PANEL: END -->
 

@@ -645,6 +645,22 @@ video {
   padding: 1rem;
 }
 
+.panelHeader {
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #DFDFDF;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.panelTitle {
+  font-size: 1rem;
+  color: #404040;
+  font-weight: 500;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

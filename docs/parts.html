@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Blue Robot: Parts</title>
+	<link rel="stylesheet" type="text/css" href="build/tailwind.css">
+</head>
+<body class="font-sans m-24 bg-gray-lightest">
+
+  <!-- PANEL HEADER -->
+  <div class="panelHeader">
+    <span class="panelTitle">Header</span>
+  </div>
+
+  <!-- Layer Card -->
+  <div class="py-3 px-4 bg-gray-lightest hover:bg-gray-lighter mt-8">
+    <span class="text-xs font-normal text-gray-darker">Commercial Buildings</span>
+  </div>
+
+
+  <!-- ATTRIBUTE CARD -->
+  <div class="bg-white hover:bg-gray-lightest border-b border-gray-lighter px-4 py-3 w-full mt-8">
+    <p class="text-xs font-normal text-black">Display Name</p>
+    <p class="text-xs font-normal text-gray-base mt-1">fieldname</p>
+  </div>
+      
+  <!-- SECTION HEADER -->
+  <div class="flex flex-row py-3 px-4 bg-white w-full mt-8">
+    <div class="flex-none w-6 h-6 mr-4 fill-current text-gray-base">
+      <svg viewBox="0 0 24 24">
+        <path d="M21.357 13.922L23.5 15.19 12 22C.2 15.01 1.428 15.74.5 15.188c.527-.309.262-.15 2.145-1.266l.981.58-1.161.688L12 20.838l9.536-5.648-1.161-.687zm-1.23-3.267l1.41.835-9.536 5.648-9.536-5.648 1.41-.835-.98-.58C.736 11.351 1.05 11.165.5 11.487c.927.553-.3-.176 11.5 6.813l11.5-6.81-2.392-1.416zM12 .686C-.111 7.859 1.429 6.948.5 7.493c.926.55-.302-.178 11.5 6.812l11.5-6.81zm-9.536 6.81C3.049 7.148 12 1.848 12 1.848l9.536 5.646L12 13.142z"/>
+      </svg>
+    </div>
+    <div class="flex-grow text-sm text-gray-darker font-medium">
+      <span>Editable layers</span>
+    </div>
+    <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-darker">
+      <svg viewBox="0 0 16 16">
+        <path d="M8 11.707l-4-4V6.293l4 4 4-4v1.414z"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ATTRIBUTE CARD -->
+  <div class="flex flex-row items-center py-2 px-4 bg-white hover:bg-gray-lightest w-full mt-8">
+    <div class="flex-grow">
+      <ul class="text-xs">
+        <li class="text-black">Display Name</li>
+        <li class="text-gray- font-mono">{fieldname}</li>
+      </ulclass="text-xs font-normal>
+    </div>
+    <div class="flex-none w-4 h-4 ml-6 fill-current text-gray-">
+      <svg viewBox="0 0 16 16">
+        <path d="M6 3v9h3a1.001 1.001 0 0 0 1-1V7a1.001 1.001 0 0 0-1-1H7V3zm3 4v4H7V7zM4 6H1v1h3v1H2a1.001 1.001 0 0 0-1 1v2a1.001 1.001 0 0 0 1 1h3V7a1.001 1.001 0 0 0-1-1zm0 5H2V9h2zm11 1h-3a1.001 1.001 0 0 1-1-1V7a1.001 1.001 0 0 1 1-1h3v1h-3v4h3z"/>
+        <!-- <path d="M10 7v5H9V7H7v5H6V7a1.001 1.001 0 0 1 1-1h2a1.001 1.001 0 0 1 1 1zm-9 4v1h4v-1H4V6H1v1h2v4zm2-6h1V3H3zm9 6a1.001 1.001 0 0 0 1 1h2v-1h-2V7h2V6h-2V3h-1v3h-1v1h1z"/>-->
+      </svg>
+    </div>
+  </div>
+
+
+
+  <!-- FORM ELEMENT -->
+  <div class="flex flex-row items-center w-full mt-8">
+    <div class="flex-none pl-8 pr-6">
+      <svg class="w-4 fill-current text-gray-light hover:text-black" viewBox="0 0 16 16"><path d="M5.95 1.5A1.45 1.45 0 1 1 4.5.05 1.45 1.45 0 0 1 5.95 1.5zM10.5.05a1.45 1.45 0 1 0 1.45 1.45A1.45 1.45 0 0 0 10.5.05zm-6 6A1.45 1.45 0 1 0 5.95 7.5 1.45 1.45 0 0 0 4.5 6.05zm6 0a1.45 1.45 0 1 0 1.45 1.45 1.45 1.45 0 0 0-1.45-1.45zm-6 6a1.45 1.45 0 1 0 1.45 1.45 1.45 1.45 0 0 0-1.45-1.45zm7.45 1.45a1.45 1.45 0 1 0-1.45 1.45 1.45 1.45 0 0 0 1.45-1.45z"/></svg>
+    </div>
+    <div class="flex-grow">
+      <div>
+        <label class="block text-black text-sm font-light mb-1" for="fieldname_1">Label</label>
+        <input class="appearance-none bg-white border border-gray-lighter rounded-sm text-xs w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline" id="fieldname_1" type="text">
+        <p class="text-gray- text-xs mt-1">This is your hint.</p>
+      </div>
+    </div>
+    <div class="flex-none pl-6 pr-8">
+      <svg class="w-4 fill-current text-gray-light hover:text-black" viewBox="0 0 16 16"><path d="M13.75 8L8 2.25V6H2v4h6v3.75zM3 9V7h6V4.664L12.336 8 9 11.336V9z"/></svg>
+    </div>
+  </div>
+
+
+</body>
+</html>

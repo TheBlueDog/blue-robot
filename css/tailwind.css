@@ -2,10 +2,16 @@
 @tailwind components;
 
   .action {
-   @apply bg-gray-darker inline-flex w-full items-center fill-current text-white ;
+   @apply bg-gray-darker inline-flex w-full items-center fill-current text-white;
   }
   .actionIcon {
     @apply block w-12 h-12 p-4;
+  }
+  .panelHeader {
+    @apply bg-white border-b border-gray-lighter py-3 px-4;
+  }
+  .panelTitle {
+    @apply text-base text-gray-darker font-medium;
   }
 
 @tailwind utilities;
