@@ -9,10 +9,16 @@
 <body class="font-sans bg-white">
 
   <div class="flex flex-col h-screen bg-blue-lightest">
-    <div class="flex-none bg-pink-lighter h-12 px-4 py-2">Navbar</div>
-    <div class="flex-auto bg-green-lighter px-4 py-2">Body</div>
+    <div class="flex-none bg-pink-lighter h-12">Navbar</div>
+    <div class="flex-auto">
+      <div class="flex flex-row min-h-full">
+        <div class="flex-none bg-red-lighter hidden md:block md:w-12 xl:w-32">Col A</div>
+        <div class="flex-none bg-orange-lighter hidden lg:block lg:w-1/6">Col B</div>
+        <div class="flex-grow bg-gray-lighter">Col C</div>
+        <div class="flex-none bg-yellow-light w-2/6">Col D</div>
+      </div>
+    </div>
   </div>
-
 
 </body>
 
