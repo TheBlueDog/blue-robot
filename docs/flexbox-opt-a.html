@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Flexbox Model : Option A</title>
+	<link rel="stylesheet" type="text/css" href="build/tailwind.css">
+</head>
+<body class="font-sans bg-white">
+
+  <div class="flex flex-col h-screen bg-blue-lightest">
+    <div class="flex-none bg-pink-lighter h-12">Navbar</div>
+    <div class="flex-auto">
+      <div class="flex flex-row min-h-full">
+        <div class="flex-none bg-red-lighter hidden md:block md:w-12 xl:w-32">Col A</div>
+        <div class="flex-none bg-orange-lighter w-1/5">Col B (w-1/5)</div>
+        <div class="flex-grow bg-gray-lighter">Col C</div>
+        <div class="flex-none bg-yellow-light w-1/5">Col D (w-1/5)</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
