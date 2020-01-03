@@ -2304,6 +2304,398 @@ video {
   background-color: #FCC582;
 }
 
+.group:hover .group-hover\:bg-black {
+  background-color: #151515;
+}
+
+.group:hover .group-hover\:bg-white {
+  background-color: #FFFFFF;
+}
+
+.group:hover .group-hover\:bg-gray-lightest {
+  background-color: #F8F8F8;
+}
+
+.group:hover .group-hover\:bg-gray-lighter {
+  background-color: #DFDFDF;
+}
+
+.group:hover .group-hover\:bg-gray-light {
+  background-color: #BFBFBF;
+}
+
+.group:hover .group-hover\:bg-gray- {
+  background-color: #9F9F9F;
+}
+
+.group:hover .group-hover\:bg-gray-dark {
+  background-color: #606060;
+}
+
+.group:hover .group-hover\:bg-gray-darker {
+  background-color: #404040;
+}
+
+.group:hover .group-hover\:bg-gray-darkest {
+  background-color: #2B2B2B;
+}
+
+.group:hover .group-hover\:bg-red-lightest {
+  background-color: #FADFDC;
+}
+
+.group:hover .group-hover\:bg-red-lighter {
+  background-color: #FCCAC5;
+}
+
+.group:hover .group-hover\:bg-red-light {
+  background-color: #F2877B;
+}
+
+.group:hover .group-hover\:bg-red- {
+  background-color: #E65340;
+}
+
+.group:hover .group-hover\:bg-red-dark {
+  background-color: #A82B1E;
+}
+
+.group:hover .group-hover\:bg-red-darker {
+  background-color: #4F0E08;
+}
+
+.group:hover .group-hover\:bg-red-darkest {
+  background-color: #210300;
+}
+
+.group:hover .group-hover\:bg-orange-lightest {
+  background-color: #FFECE0;
+}
+
+.group:hover .group-hover\:bg-orange-lighter {
+  background-color: #FCDAC5;
+}
+
+.group:hover .group-hover\:bg-orange-light {
+  background-color: #FAAE7F;
+}
+
+.group:hover .group-hover\:bg-orange- {
+  background-color: #F58440;
+}
+
+.group:hover .group-hover\:bg-orange-dark {
+  background-color: #C65A18;
+}
+
+.group:hover .group-hover\:bg-orange-darker {
+  background-color: #6D2F08;
+}
+
+.group:hover .group-hover\:bg-orange-darkest {
+  background-color: #401900;
+}
+
+.group:hover .group-hover\:bg-yellow-lightest {
+  background-color: #FAF7DC;
+}
+
+.group:hover .group-hover\:bg-yellow-lighter {
+  background-color: #F6F0C1;
+}
+
+.group:hover .group-hover\:bg-yellow-light {
+  background-color: #FCEE8D;
+}
+
+.group:hover .group-hover\:bg-yellow- {
+  background-color: #F9E54E;
+}
+
+.group:hover .group-hover\:bg-yellow-dark {
+  background-color: #D9BC00;
+}
+
+.group:hover .group-hover\:bg-yellow-darker {
+  background-color: #8C7500;
+}
+
+.group:hover .group-hover\:bg-yellow-darkest {
+  background-color: #5C4E00;
+}
+
+.group:hover .group-hover\:bg-greenblue-lightest {
+  background-color: #DBF2F1;
+}
+
+.group:hover .group-hover\:bg-greenblue-lighter {
+  background-color: #BEEDEC;
+}
+
+.group:hover .group-hover\:bg-greenblue-light {
+  background-color: #8FE6E5;
+}
+
+.group:hover .group-hover\:bg-greenblue- {
+  background-color: #28CECB;
+}
+
+.group:hover .group-hover\:bg-greenblue-dark {
+  background-color: #009B98;
+}
+
+.group:hover .group-hover\:bg-greenblue-darker {
+  background-color: #004D4C;
+}
+
+.group:hover .group-hover\:bg-greenblue-darkest {
+  background-color: #002625;
+}
+
+.group:hover .group-hover\:bg-violet-lightest {
+  background-color: #ECE6FF;
+}
+
+.group:hover .group-hover\:bg-violet-lighter {
+  background-color: #DCD2F2;
+}
+
+.group:hover .group-hover\:bg-violet-light {
+  background-color: #B39AD7;
+}
+
+.group:hover .group-hover\:bg-violet- {
+  background-color: #7E5BAF;
+}
+
+.group:hover .group-hover\:bg-violet-dark {
+  background-color: #4E2C7E;
+}
+
+.group:hover .group-hover\:bg-violet-darker {
+  background-color: #250F43;
+}
+
+.group:hover .group-hover\:bg-violet-darkest {
+  background-color: #100026;
+}
+
+.group:hover .group-hover\:bg-pink-lightest {
+  background-color: #FADEF0;
+}
+
+.group:hover .group-hover\:bg-pink-lighter {
+  background-color: #FACDEA;
+}
+
+.group:hover .group-hover\:bg-pink-light {
+  background-color: #F2A5D6;
+}
+
+.group:hover .group-hover\:bg-pink- {
+  background-color: #E673BB;
+}
+
+.group:hover .group-hover\:bg-pink-dark {
+  background-color: #BA2F7E;
+}
+
+.group:hover .group-hover\:bg-pink-darker {
+  background-color: #590B32;
+}
+
+.group:hover .group-hover\:bg-pink-darkest {
+  background-color: #260404;
+}
+
+.group:hover .group-hover\:bg-green-lightest {
+  background-color: #E4F0E4;
+}
+
+.group:hover .group-hover\:bg-green-lighter {
+  background-color: #CBE2CB;
+}
+
+.group:hover .group-hover\:bg-green-light {
+  background-color: #87D692;
+}
+
+.group:hover .group-hover\:bg-green- {
+  background-color: #50BA5F;
+}
+
+.group:hover .group-hover\:bg-green-dark {
+  background-color: #288835;
+}
+
+.group:hover .group-hover\:bg-green-darker {
+  background-color: #0D3F14;
+}
+
+.group:hover .group-hover\:bg-green-darkest {
+  background-color: #001A03;
+}
+
+.group:hover .group-hover\:bg-blue-lightest {
+  background-color: #DFEFFA;
+}
+
+.group:hover .group-hover\:bg-blue-lighter {
+  background-color: #C8E3F5;
+}
+
+.group:hover .group-hover\:bg-blue-light {
+  background-color: #77BDE7;
+}
+
+.group:hover .group-hover\:bg-blue- {
+  background-color: #2890CE;
+}
+
+.group:hover .group-hover\:bg-blue-dark {
+  background-color: #00619B;
+}
+
+.group:hover .group-hover\:bg-blue-darker {
+  background-color: #00304D;
+}
+
+.group:hover .group-hover\:bg-blue-darkest {
+  background-color: #001726;
+}
+
+.group:hover .group-hover\:bg-violetred-lightest {
+  background-color: #F6E1FA;
+}
+
+.group:hover .group-hover\:bg-violetred-lighter {
+  background-color: #E9CEEE;
+}
+
+.group:hover .group-hover\:bg-violetred-light {
+  background-color: #CFA1D7;
+}
+
+.group:hover .group-hover\:bg-violetred- {
+  background-color: #A466AF;
+}
+
+.group:hover .group-hover\:bg-violetred-dark {
+  background-color: #73377E;
+}
+
+.group:hover .group-hover\:bg-violetred-darker {
+  background-color: #3C1243;
+}
+
+.group:hover .group-hover\:bg-violetred-darkest {
+  background-color: #200026;
+}
+
+.group:hover .group-hover\:bg-redorange-lightest {
+  background-color: #F7E4DC;
+}
+
+.group:hover .group-hover\:bg-redorange-lighter {
+  background-color: #F5D0C2;
+}
+
+.group:hover .group-hover\:bg-redorange-light {
+  background-color: #F09677;
+}
+
+.group:hover .group-hover\:bg-redorange- {
+  background-color: #E97E5A;
+}
+
+.group:hover .group-hover\:bg-redorange-dark {
+  background-color: #AD3C16;
+}
+
+.group:hover .group-hover\:bg-redorange-darker {
+  background-color: #531B07;
+}
+
+.group:hover .group-hover\:bg-redorange-darkest {
+  background-color: #260A00;
+}
+
+.group:hover .group-hover\:bg-orangeyellow-lightest {
+  background-color: #FFEDD6;
+}
+
+.group:hover .group-hover\:bg-orangeyellow-lighter {
+  background-color: #FCE0BD;
+}
+
+.group:hover .group-hover\:bg-orangeyellow-light {
+  background-color: #FCC582;
+}
+
+.group:hover .group-hover\:bg-orangeyellow- {
+  background-color: #F9A845;
+}
+
+.group:hover .group-hover\:bg-orangeyellow-dark {
+  background-color: #C67718;
+}
+
+.group:hover .group-hover\:bg-orangeyellow-darker {
+  background-color: #6D3F08;
+}
+
+.group:hover .group-hover\:bg-orangeyellow-darkest {
+  background-color: #402300;
+}
+
+.group:hover .group-hover\:bg-yellowgreen-lightest {
+  background-color: #F0F7DA;
+}
+
+.group:hover .group-hover\:bg-yellowgreen-lighter {
+  background-color: #E5EFC6;
+}
+
+.group:hover .group-hover\:bg-yellowgreen-light {
+  background-color: #CDE78A;
+}
+
+.group:hover .group-hover\:bg-yellowgreen- {
+  background-color: #B6D860;
+}
+
+.group:hover .group-hover\:bg-yellowgreen-dark {
+  background-color: #84A338;
+}
+
+.group:hover .group-hover\:bg-yellowgreen-darker {
+  background-color: #384813;
+}
+
+.group:hover .group-hover\:bg-yellowgreen-darkest {
+  background-color: #121A00;
+}
+
+.group:hover .group-hover\:bg-app-brand-primary {
+  background-color: #00619B;
+}
+
+.group:hover .group-hover\:bg-app-brand-primary-dark {
+  background-color: #00304D;
+}
+
+.group:hover .group-hover\:bg-app-brand-primary-highlight {
+  background-color: #77BDE7;
+}
+
+.group:hover .group-hover\:bg-app-brand-primary-light {
+  background-color: #C8E3F5;
+}
+
+.group:hover .group-hover\:bg-app-brand-secondary {
+  background-color: #FCC582;
+}
+
 .bg-bottom {
   background-position: bottom;
 }
@@ -13856,6 +14248,398 @@ video {
   }
 
   .sm\:active\:bg-app-brand-secondary:active {
+    background-color: #FCC582;
+  }
+
+  .group:hover .sm\:group-hover\:bg-black {
+    background-color: #151515;
+  }
+
+  .group:hover .sm\:group-hover\:bg-white {
+    background-color: #FFFFFF;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-lightest {
+    background-color: #F8F8F8;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-lighter {
+    background-color: #DFDFDF;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-light {
+    background-color: #BFBFBF;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray- {
+    background-color: #9F9F9F;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-dark {
+    background-color: #606060;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-darker {
+    background-color: #404040;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-darkest {
+    background-color: #2B2B2B;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-lightest {
+    background-color: #FADFDC;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-lighter {
+    background-color: #FCCAC5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-light {
+    background-color: #F2877B;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red- {
+    background-color: #E65340;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-dark {
+    background-color: #A82B1E;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-darker {
+    background-color: #4F0E08;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-darkest {
+    background-color: #210300;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-lightest {
+    background-color: #FFECE0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-lighter {
+    background-color: #FCDAC5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-light {
+    background-color: #FAAE7F;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange- {
+    background-color: #F58440;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-dark {
+    background-color: #C65A18;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-darker {
+    background-color: #6D2F08;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-darkest {
+    background-color: #401900;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-lightest {
+    background-color: #FAF7DC;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-lighter {
+    background-color: #F6F0C1;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-light {
+    background-color: #FCEE8D;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow- {
+    background-color: #F9E54E;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-dark {
+    background-color: #D9BC00;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-darker {
+    background-color: #8C7500;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-darkest {
+    background-color: #5C4E00;
+  }
+
+  .group:hover .sm\:group-hover\:bg-greenblue-lightest {
+    background-color: #DBF2F1;
+  }
+
+  .group:hover .sm\:group-hover\:bg-greenblue-lighter {
+    background-color: #BEEDEC;
+  }
+
+  .group:hover .sm\:group-hover\:bg-greenblue-light {
+    background-color: #8FE6E5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-greenblue- {
+    background-color: #28CECB;
+  }
+
+  .group:hover .sm\:group-hover\:bg-greenblue-dark {
+    background-color: #009B98;
+  }
+
+  .group:hover .sm\:group-hover\:bg-greenblue-darker {
+    background-color: #004D4C;
+  }
+
+  .group:hover .sm\:group-hover\:bg-greenblue-darkest {
+    background-color: #002625;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violet-lightest {
+    background-color: #ECE6FF;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violet-lighter {
+    background-color: #DCD2F2;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violet-light {
+    background-color: #B39AD7;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violet- {
+    background-color: #7E5BAF;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violet-dark {
+    background-color: #4E2C7E;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violet-darker {
+    background-color: #250F43;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violet-darkest {
+    background-color: #100026;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-lightest {
+    background-color: #FADEF0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-lighter {
+    background-color: #FACDEA;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-light {
+    background-color: #F2A5D6;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink- {
+    background-color: #E673BB;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-dark {
+    background-color: #BA2F7E;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-darker {
+    background-color: #590B32;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-darkest {
+    background-color: #260404;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-lightest {
+    background-color: #E4F0E4;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-lighter {
+    background-color: #CBE2CB;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-light {
+    background-color: #87D692;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green- {
+    background-color: #50BA5F;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-dark {
+    background-color: #288835;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-darker {
+    background-color: #0D3F14;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-darkest {
+    background-color: #001A03;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-lightest {
+    background-color: #DFEFFA;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-lighter {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-light {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue- {
+    background-color: #2890CE;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-dark {
+    background-color: #00619B;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-darker {
+    background-color: #00304D;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-darkest {
+    background-color: #001726;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violetred-lightest {
+    background-color: #F6E1FA;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violetred-lighter {
+    background-color: #E9CEEE;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violetred-light {
+    background-color: #CFA1D7;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violetred- {
+    background-color: #A466AF;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violetred-dark {
+    background-color: #73377E;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violetred-darker {
+    background-color: #3C1243;
+  }
+
+  .group:hover .sm\:group-hover\:bg-violetred-darkest {
+    background-color: #200026;
+  }
+
+  .group:hover .sm\:group-hover\:bg-redorange-lightest {
+    background-color: #F7E4DC;
+  }
+
+  .group:hover .sm\:group-hover\:bg-redorange-lighter {
+    background-color: #F5D0C2;
+  }
+
+  .group:hover .sm\:group-hover\:bg-redorange-light {
+    background-color: #F09677;
+  }
+
+  .group:hover .sm\:group-hover\:bg-redorange- {
+    background-color: #E97E5A;
+  }
+
+  .group:hover .sm\:group-hover\:bg-redorange-dark {
+    background-color: #AD3C16;
+  }
+
+  .group:hover .sm\:group-hover\:bg-redorange-darker {
+    background-color: #531B07;
+  }
+
+  .group:hover .sm\:group-hover\:bg-redorange-darkest {
+    background-color: #260A00;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orangeyellow-lightest {
+    background-color: #FFEDD6;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orangeyellow-lighter {
+    background-color: #FCE0BD;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orangeyellow-light {
+    background-color: #FCC582;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orangeyellow- {
+    background-color: #F9A845;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orangeyellow-dark {
+    background-color: #C67718;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orangeyellow-darker {
+    background-color: #6D3F08;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orangeyellow-darkest {
+    background-color: #402300;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellowgreen-lightest {
+    background-color: #F0F7DA;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellowgreen-lighter {
+    background-color: #E5EFC6;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellowgreen-light {
+    background-color: #CDE78A;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellowgreen- {
+    background-color: #B6D860;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellowgreen-dark {
+    background-color: #84A338;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellowgreen-darker {
+    background-color: #384813;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellowgreen-darkest {
+    background-color: #121A00;
+  }
+
+  .group:hover .sm\:group-hover\:bg-app-brand-primary {
+    background-color: #00619B;
+  }
+
+  .group:hover .sm\:group-hover\:bg-app-brand-primary-dark {
+    background-color: #00304D;
+  }
+
+  .group:hover .sm\:group-hover\:bg-app-brand-primary-highlight {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .sm\:group-hover\:bg-app-brand-primary-light {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-app-brand-secondary {
     background-color: #FCC582;
   }
 
@@ -25415,6 +26199,398 @@ video {
     background-color: #FCC582;
   }
 
+  .group:hover .md\:group-hover\:bg-black {
+    background-color: #151515;
+  }
+
+  .group:hover .md\:group-hover\:bg-white {
+    background-color: #FFFFFF;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-lightest {
+    background-color: #F8F8F8;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-lighter {
+    background-color: #DFDFDF;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-light {
+    background-color: #BFBFBF;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray- {
+    background-color: #9F9F9F;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-dark {
+    background-color: #606060;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-darker {
+    background-color: #404040;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-darkest {
+    background-color: #2B2B2B;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-lightest {
+    background-color: #FADFDC;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-lighter {
+    background-color: #FCCAC5;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-light {
+    background-color: #F2877B;
+  }
+
+  .group:hover .md\:group-hover\:bg-red- {
+    background-color: #E65340;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-dark {
+    background-color: #A82B1E;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-darker {
+    background-color: #4F0E08;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-darkest {
+    background-color: #210300;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-lightest {
+    background-color: #FFECE0;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-lighter {
+    background-color: #FCDAC5;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-light {
+    background-color: #FAAE7F;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange- {
+    background-color: #F58440;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-dark {
+    background-color: #C65A18;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-darker {
+    background-color: #6D2F08;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-darkest {
+    background-color: #401900;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-lightest {
+    background-color: #FAF7DC;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-lighter {
+    background-color: #F6F0C1;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-light {
+    background-color: #FCEE8D;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow- {
+    background-color: #F9E54E;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-dark {
+    background-color: #D9BC00;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-darker {
+    background-color: #8C7500;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-darkest {
+    background-color: #5C4E00;
+  }
+
+  .group:hover .md\:group-hover\:bg-greenblue-lightest {
+    background-color: #DBF2F1;
+  }
+
+  .group:hover .md\:group-hover\:bg-greenblue-lighter {
+    background-color: #BEEDEC;
+  }
+
+  .group:hover .md\:group-hover\:bg-greenblue-light {
+    background-color: #8FE6E5;
+  }
+
+  .group:hover .md\:group-hover\:bg-greenblue- {
+    background-color: #28CECB;
+  }
+
+  .group:hover .md\:group-hover\:bg-greenblue-dark {
+    background-color: #009B98;
+  }
+
+  .group:hover .md\:group-hover\:bg-greenblue-darker {
+    background-color: #004D4C;
+  }
+
+  .group:hover .md\:group-hover\:bg-greenblue-darkest {
+    background-color: #002625;
+  }
+
+  .group:hover .md\:group-hover\:bg-violet-lightest {
+    background-color: #ECE6FF;
+  }
+
+  .group:hover .md\:group-hover\:bg-violet-lighter {
+    background-color: #DCD2F2;
+  }
+
+  .group:hover .md\:group-hover\:bg-violet-light {
+    background-color: #B39AD7;
+  }
+
+  .group:hover .md\:group-hover\:bg-violet- {
+    background-color: #7E5BAF;
+  }
+
+  .group:hover .md\:group-hover\:bg-violet-dark {
+    background-color: #4E2C7E;
+  }
+
+  .group:hover .md\:group-hover\:bg-violet-darker {
+    background-color: #250F43;
+  }
+
+  .group:hover .md\:group-hover\:bg-violet-darkest {
+    background-color: #100026;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-lightest {
+    background-color: #FADEF0;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-lighter {
+    background-color: #FACDEA;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-light {
+    background-color: #F2A5D6;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink- {
+    background-color: #E673BB;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-dark {
+    background-color: #BA2F7E;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-darker {
+    background-color: #590B32;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-darkest {
+    background-color: #260404;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-lightest {
+    background-color: #E4F0E4;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-lighter {
+    background-color: #CBE2CB;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-light {
+    background-color: #87D692;
+  }
+
+  .group:hover .md\:group-hover\:bg-green- {
+    background-color: #50BA5F;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-dark {
+    background-color: #288835;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-darker {
+    background-color: #0D3F14;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-darkest {
+    background-color: #001A03;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-lightest {
+    background-color: #DFEFFA;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-lighter {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-light {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue- {
+    background-color: #2890CE;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-dark {
+    background-color: #00619B;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-darker {
+    background-color: #00304D;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-darkest {
+    background-color: #001726;
+  }
+
+  .group:hover .md\:group-hover\:bg-violetred-lightest {
+    background-color: #F6E1FA;
+  }
+
+  .group:hover .md\:group-hover\:bg-violetred-lighter {
+    background-color: #E9CEEE;
+  }
+
+  .group:hover .md\:group-hover\:bg-violetred-light {
+    background-color: #CFA1D7;
+  }
+
+  .group:hover .md\:group-hover\:bg-violetred- {
+    background-color: #A466AF;
+  }
+
+  .group:hover .md\:group-hover\:bg-violetred-dark {
+    background-color: #73377E;
+  }
+
+  .group:hover .md\:group-hover\:bg-violetred-darker {
+    background-color: #3C1243;
+  }
+
+  .group:hover .md\:group-hover\:bg-violetred-darkest {
+    background-color: #200026;
+  }
+
+  .group:hover .md\:group-hover\:bg-redorange-lightest {
+    background-color: #F7E4DC;
+  }
+
+  .group:hover .md\:group-hover\:bg-redorange-lighter {
+    background-color: #F5D0C2;
+  }
+
+  .group:hover .md\:group-hover\:bg-redorange-light {
+    background-color: #F09677;
+  }
+
+  .group:hover .md\:group-hover\:bg-redorange- {
+    background-color: #E97E5A;
+  }
+
+  .group:hover .md\:group-hover\:bg-redorange-dark {
+    background-color: #AD3C16;
+  }
+
+  .group:hover .md\:group-hover\:bg-redorange-darker {
+    background-color: #531B07;
+  }
+
+  .group:hover .md\:group-hover\:bg-redorange-darkest {
+    background-color: #260A00;
+  }
+
+  .group:hover .md\:group-hover\:bg-orangeyellow-lightest {
+    background-color: #FFEDD6;
+  }
+
+  .group:hover .md\:group-hover\:bg-orangeyellow-lighter {
+    background-color: #FCE0BD;
+  }
+
+  .group:hover .md\:group-hover\:bg-orangeyellow-light {
+    background-color: #FCC582;
+  }
+
+  .group:hover .md\:group-hover\:bg-orangeyellow- {
+    background-color: #F9A845;
+  }
+
+  .group:hover .md\:group-hover\:bg-orangeyellow-dark {
+    background-color: #C67718;
+  }
+
+  .group:hover .md\:group-hover\:bg-orangeyellow-darker {
+    background-color: #6D3F08;
+  }
+
+  .group:hover .md\:group-hover\:bg-orangeyellow-darkest {
+    background-color: #402300;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellowgreen-lightest {
+    background-color: #F0F7DA;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellowgreen-lighter {
+    background-color: #E5EFC6;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellowgreen-light {
+    background-color: #CDE78A;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellowgreen- {
+    background-color: #B6D860;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellowgreen-dark {
+    background-color: #84A338;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellowgreen-darker {
+    background-color: #384813;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellowgreen-darkest {
+    background-color: #121A00;
+  }
+
+  .group:hover .md\:group-hover\:bg-app-brand-primary {
+    background-color: #00619B;
+  }
+
+  .group:hover .md\:group-hover\:bg-app-brand-primary-dark {
+    background-color: #00304D;
+  }
+
+  .group:hover .md\:group-hover\:bg-app-brand-primary-highlight {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .md\:group-hover\:bg-app-brand-primary-light {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .md\:group-hover\:bg-app-brand-secondary {
+    background-color: #FCC582;
+  }
+
   .md\:bg-bottom {
     background-position: bottom;
   }
@@ -36971,6 +38147,398 @@ video {
     background-color: #FCC582;
   }
 
+  .group:hover .lg\:group-hover\:bg-black {
+    background-color: #151515;
+  }
+
+  .group:hover .lg\:group-hover\:bg-white {
+    background-color: #FFFFFF;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-lightest {
+    background-color: #F8F8F8;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-lighter {
+    background-color: #DFDFDF;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-light {
+    background-color: #BFBFBF;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray- {
+    background-color: #9F9F9F;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-dark {
+    background-color: #606060;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-darker {
+    background-color: #404040;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-darkest {
+    background-color: #2B2B2B;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-lightest {
+    background-color: #FADFDC;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-lighter {
+    background-color: #FCCAC5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-light {
+    background-color: #F2877B;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red- {
+    background-color: #E65340;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-dark {
+    background-color: #A82B1E;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-darker {
+    background-color: #4F0E08;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-darkest {
+    background-color: #210300;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-lightest {
+    background-color: #FFECE0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-lighter {
+    background-color: #FCDAC5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-light {
+    background-color: #FAAE7F;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange- {
+    background-color: #F58440;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-dark {
+    background-color: #C65A18;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-darker {
+    background-color: #6D2F08;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-darkest {
+    background-color: #401900;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-lightest {
+    background-color: #FAF7DC;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-lighter {
+    background-color: #F6F0C1;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-light {
+    background-color: #FCEE8D;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow- {
+    background-color: #F9E54E;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-dark {
+    background-color: #D9BC00;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-darker {
+    background-color: #8C7500;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-darkest {
+    background-color: #5C4E00;
+  }
+
+  .group:hover .lg\:group-hover\:bg-greenblue-lightest {
+    background-color: #DBF2F1;
+  }
+
+  .group:hover .lg\:group-hover\:bg-greenblue-lighter {
+    background-color: #BEEDEC;
+  }
+
+  .group:hover .lg\:group-hover\:bg-greenblue-light {
+    background-color: #8FE6E5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-greenblue- {
+    background-color: #28CECB;
+  }
+
+  .group:hover .lg\:group-hover\:bg-greenblue-dark {
+    background-color: #009B98;
+  }
+
+  .group:hover .lg\:group-hover\:bg-greenblue-darker {
+    background-color: #004D4C;
+  }
+
+  .group:hover .lg\:group-hover\:bg-greenblue-darkest {
+    background-color: #002625;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violet-lightest {
+    background-color: #ECE6FF;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violet-lighter {
+    background-color: #DCD2F2;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violet-light {
+    background-color: #B39AD7;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violet- {
+    background-color: #7E5BAF;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violet-dark {
+    background-color: #4E2C7E;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violet-darker {
+    background-color: #250F43;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violet-darkest {
+    background-color: #100026;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-lightest {
+    background-color: #FADEF0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-lighter {
+    background-color: #FACDEA;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-light {
+    background-color: #F2A5D6;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink- {
+    background-color: #E673BB;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-dark {
+    background-color: #BA2F7E;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-darker {
+    background-color: #590B32;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-darkest {
+    background-color: #260404;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-lightest {
+    background-color: #E4F0E4;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-lighter {
+    background-color: #CBE2CB;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-light {
+    background-color: #87D692;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green- {
+    background-color: #50BA5F;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-dark {
+    background-color: #288835;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-darker {
+    background-color: #0D3F14;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-darkest {
+    background-color: #001A03;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-lightest {
+    background-color: #DFEFFA;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-lighter {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-light {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue- {
+    background-color: #2890CE;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-dark {
+    background-color: #00619B;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-darker {
+    background-color: #00304D;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-darkest {
+    background-color: #001726;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violetred-lightest {
+    background-color: #F6E1FA;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violetred-lighter {
+    background-color: #E9CEEE;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violetred-light {
+    background-color: #CFA1D7;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violetred- {
+    background-color: #A466AF;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violetred-dark {
+    background-color: #73377E;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violetred-darker {
+    background-color: #3C1243;
+  }
+
+  .group:hover .lg\:group-hover\:bg-violetred-darkest {
+    background-color: #200026;
+  }
+
+  .group:hover .lg\:group-hover\:bg-redorange-lightest {
+    background-color: #F7E4DC;
+  }
+
+  .group:hover .lg\:group-hover\:bg-redorange-lighter {
+    background-color: #F5D0C2;
+  }
+
+  .group:hover .lg\:group-hover\:bg-redorange-light {
+    background-color: #F09677;
+  }
+
+  .group:hover .lg\:group-hover\:bg-redorange- {
+    background-color: #E97E5A;
+  }
+
+  .group:hover .lg\:group-hover\:bg-redorange-dark {
+    background-color: #AD3C16;
+  }
+
+  .group:hover .lg\:group-hover\:bg-redorange-darker {
+    background-color: #531B07;
+  }
+
+  .group:hover .lg\:group-hover\:bg-redorange-darkest {
+    background-color: #260A00;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orangeyellow-lightest {
+    background-color: #FFEDD6;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orangeyellow-lighter {
+    background-color: #FCE0BD;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orangeyellow-light {
+    background-color: #FCC582;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orangeyellow- {
+    background-color: #F9A845;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orangeyellow-dark {
+    background-color: #C67718;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orangeyellow-darker {
+    background-color: #6D3F08;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orangeyellow-darkest {
+    background-color: #402300;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellowgreen-lightest {
+    background-color: #F0F7DA;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellowgreen-lighter {
+    background-color: #E5EFC6;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellowgreen-light {
+    background-color: #CDE78A;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellowgreen- {
+    background-color: #B6D860;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellowgreen-dark {
+    background-color: #84A338;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellowgreen-darker {
+    background-color: #384813;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellowgreen-darkest {
+    background-color: #121A00;
+  }
+
+  .group:hover .lg\:group-hover\:bg-app-brand-primary {
+    background-color: #00619B;
+  }
+
+  .group:hover .lg\:group-hover\:bg-app-brand-primary-dark {
+    background-color: #00304D;
+  }
+
+  .group:hover .lg\:group-hover\:bg-app-brand-primary-highlight {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .lg\:group-hover\:bg-app-brand-primary-light {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-app-brand-secondary {
+    background-color: #FCC582;
+  }
+
   .lg\:bg-bottom {
     background-position: bottom;
   }
@@ -48524,6 +50092,398 @@ video {
   }
 
   .xl\:active\:bg-app-brand-secondary:active {
+    background-color: #FCC582;
+  }
+
+  .group:hover .xl\:group-hover\:bg-black {
+    background-color: #151515;
+  }
+
+  .group:hover .xl\:group-hover\:bg-white {
+    background-color: #FFFFFF;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-lightest {
+    background-color: #F8F8F8;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-lighter {
+    background-color: #DFDFDF;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-light {
+    background-color: #BFBFBF;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray- {
+    background-color: #9F9F9F;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-dark {
+    background-color: #606060;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-darker {
+    background-color: #404040;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-darkest {
+    background-color: #2B2B2B;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-lightest {
+    background-color: #FADFDC;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-lighter {
+    background-color: #FCCAC5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-light {
+    background-color: #F2877B;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red- {
+    background-color: #E65340;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-dark {
+    background-color: #A82B1E;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-darker {
+    background-color: #4F0E08;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-darkest {
+    background-color: #210300;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-lightest {
+    background-color: #FFECE0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-lighter {
+    background-color: #FCDAC5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-light {
+    background-color: #FAAE7F;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange- {
+    background-color: #F58440;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-dark {
+    background-color: #C65A18;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-darker {
+    background-color: #6D2F08;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-darkest {
+    background-color: #401900;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-lightest {
+    background-color: #FAF7DC;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-lighter {
+    background-color: #F6F0C1;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-light {
+    background-color: #FCEE8D;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow- {
+    background-color: #F9E54E;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-dark {
+    background-color: #D9BC00;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-darker {
+    background-color: #8C7500;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-darkest {
+    background-color: #5C4E00;
+  }
+
+  .group:hover .xl\:group-hover\:bg-greenblue-lightest {
+    background-color: #DBF2F1;
+  }
+
+  .group:hover .xl\:group-hover\:bg-greenblue-lighter {
+    background-color: #BEEDEC;
+  }
+
+  .group:hover .xl\:group-hover\:bg-greenblue-light {
+    background-color: #8FE6E5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-greenblue- {
+    background-color: #28CECB;
+  }
+
+  .group:hover .xl\:group-hover\:bg-greenblue-dark {
+    background-color: #009B98;
+  }
+
+  .group:hover .xl\:group-hover\:bg-greenblue-darker {
+    background-color: #004D4C;
+  }
+
+  .group:hover .xl\:group-hover\:bg-greenblue-darkest {
+    background-color: #002625;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violet-lightest {
+    background-color: #ECE6FF;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violet-lighter {
+    background-color: #DCD2F2;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violet-light {
+    background-color: #B39AD7;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violet- {
+    background-color: #7E5BAF;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violet-dark {
+    background-color: #4E2C7E;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violet-darker {
+    background-color: #250F43;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violet-darkest {
+    background-color: #100026;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-lightest {
+    background-color: #FADEF0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-lighter {
+    background-color: #FACDEA;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-light {
+    background-color: #F2A5D6;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink- {
+    background-color: #E673BB;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-dark {
+    background-color: #BA2F7E;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-darker {
+    background-color: #590B32;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-darkest {
+    background-color: #260404;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-lightest {
+    background-color: #E4F0E4;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-lighter {
+    background-color: #CBE2CB;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-light {
+    background-color: #87D692;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green- {
+    background-color: #50BA5F;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-dark {
+    background-color: #288835;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-darker {
+    background-color: #0D3F14;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-darkest {
+    background-color: #001A03;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-lightest {
+    background-color: #DFEFFA;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-lighter {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-light {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue- {
+    background-color: #2890CE;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-dark {
+    background-color: #00619B;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-darker {
+    background-color: #00304D;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-darkest {
+    background-color: #001726;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violetred-lightest {
+    background-color: #F6E1FA;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violetred-lighter {
+    background-color: #E9CEEE;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violetred-light {
+    background-color: #CFA1D7;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violetred- {
+    background-color: #A466AF;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violetred-dark {
+    background-color: #73377E;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violetred-darker {
+    background-color: #3C1243;
+  }
+
+  .group:hover .xl\:group-hover\:bg-violetred-darkest {
+    background-color: #200026;
+  }
+
+  .group:hover .xl\:group-hover\:bg-redorange-lightest {
+    background-color: #F7E4DC;
+  }
+
+  .group:hover .xl\:group-hover\:bg-redorange-lighter {
+    background-color: #F5D0C2;
+  }
+
+  .group:hover .xl\:group-hover\:bg-redorange-light {
+    background-color: #F09677;
+  }
+
+  .group:hover .xl\:group-hover\:bg-redorange- {
+    background-color: #E97E5A;
+  }
+
+  .group:hover .xl\:group-hover\:bg-redorange-dark {
+    background-color: #AD3C16;
+  }
+
+  .group:hover .xl\:group-hover\:bg-redorange-darker {
+    background-color: #531B07;
+  }
+
+  .group:hover .xl\:group-hover\:bg-redorange-darkest {
+    background-color: #260A00;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orangeyellow-lightest {
+    background-color: #FFEDD6;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orangeyellow-lighter {
+    background-color: #FCE0BD;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orangeyellow-light {
+    background-color: #FCC582;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orangeyellow- {
+    background-color: #F9A845;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orangeyellow-dark {
+    background-color: #C67718;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orangeyellow-darker {
+    background-color: #6D3F08;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orangeyellow-darkest {
+    background-color: #402300;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellowgreen-lightest {
+    background-color: #F0F7DA;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellowgreen-lighter {
+    background-color: #E5EFC6;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellowgreen-light {
+    background-color: #CDE78A;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellowgreen- {
+    background-color: #B6D860;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellowgreen-dark {
+    background-color: #84A338;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellowgreen-darker {
+    background-color: #384813;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellowgreen-darkest {
+    background-color: #121A00;
+  }
+
+  .group:hover .xl\:group-hover\:bg-app-brand-primary {
+    background-color: #00619B;
+  }
+
+  .group:hover .xl\:group-hover\:bg-app-brand-primary-dark {
+    background-color: #00304D;
+  }
+
+  .group:hover .xl\:group-hover\:bg-app-brand-primary-highlight {
+    background-color: #77BDE7;
+  }
+
+  .group:hover .xl\:group-hover\:bg-app-brand-primary-light {
+    background-color: #C8E3F5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-app-brand-secondary {
     background-color: #FCC582;
   }
 
