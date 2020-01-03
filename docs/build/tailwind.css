@@ -645,6 +645,17 @@ video {
   padding: 1rem;
 }
 
+.actionActive {
+  background-color: #151515;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-align: center;
+          align-items: center;
+  fill: currentColor;
+  color: #77BDE7;
+}
+
 .panelHeader {
   background-color: #FFFFFF;
   border-bottom-width: 1px;

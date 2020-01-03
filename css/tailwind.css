@@ -7,6 +7,9 @@
   .actionIcon {
     @apply block w-12 h-12 p-4;
   }
+  .actionActive {
+    @apply bg-black inline-flex w-full items-center fill-current text-app-brand-primary-highlight;
+   }
   .panelHeader {
     @apply bg-white border-b border-gray-lighter py-3 px-4;
   }
