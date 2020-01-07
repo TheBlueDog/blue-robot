@@ -1,0 +1,56 @@
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Flexbox Model : Option A</title>
+	<link rel="stylesheet" type="text/css" href="Flexbox%20Model%20%20%20Option%20A_files/tailwind.css">
+</head>
+<body class="font-sans bg-white">
+
+  <div class="flex flex-col h-screen bg-blue-lightest">
+    <div class="flex-none bg-pink-lighter h-12">Navbar</div>
+    <div class="flex-auto">
+      <div class="flex flex-row min-h-full">
+        <div class="flex-none bg-red-lighter hidden md:block md:w-12 xl:w-32">Col A</div>
+        <div class="flex-none bg-orange-lighter w-1/5">Col B (w-1/5)</div>
+        <div class="flex-grow bg-gray-lighter">Col C</div>
+        <div class="flex-none bg-yellow-light w-1/5">Col D (w-1/5)</div>
+      </div>
+    </div>
+  </div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+
+</body></html>

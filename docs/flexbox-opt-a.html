@@ -9,13 +9,23 @@
 <body class="font-sans bg-white">
 
   <div class="flex flex-col h-screen bg-blue-lightest">
-    <div class="flex-none bg-pink-lighter h-12">Navbar</div>
+    <div class="flex-none bg-pink-lighter h-12 p-2 text-center">
+      <span class="md:hidden">SCREEN-SM</span>
+      <span class="hidden md:block lg:hidden">SCREEN-MD</span>
+      <span class="hidden lg:block xl:hidden">SCREEN-LG</span>
+      <span class="hidden xl:block">SCREEN-XL</span>
+    </div>
     <div class="flex-auto">
-      <div class="flex flex-row min-h-full">
-        <div class="flex-none bg-red-lighter hidden md:block md:w-12 xl:w-32">Col A</div>
-        <div class="flex-none bg-orange-lighter w-1/5">Col B (w-1/5)</div>
-        <div class="flex-grow bg-gray-lighter">Col C</div>
-        <div class="flex-none bg-yellow-light w-1/5">Col D (w-1/5)</div>
+      <div class="flex flex-row min-h-full text-center">
+        <div class="flex-none bg-red-lighter p-4 hidden md:block md:w-12 xl:w-32">
+          <span class="md:hidden">Col A (12)</span>
+          <span class="hidden md:block lg:hidden">Col A (12)</span>
+          <span class="hidden lg:block xl:hidden">Col A (12)</span>
+          <span class="hidden xl:block">Col A (w-32)</span>
+        </div>
+        <div class="flex-none bg-orange-lighter p-4 w-1/5">Col B (w-1/5)</div>
+        <div class="flex-grow bg-gray-lighter p-4">Col C (flex-grow)</div>
+        <div class="flex-none bg-yellow-light p-4 w-1/5">Col D (w-1/5)</div>
       </div>
     </div>
   </div>
