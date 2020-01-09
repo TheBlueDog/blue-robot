@@ -13,7 +13,7 @@
 - Run `npm run build`
 - Create `index.html`
 - `npm install -g live-server`
-- Run `live-server doc`
+- Run `live-server docs`
 
 ### Enable utilities for background colors
 
