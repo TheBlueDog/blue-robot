@@ -638,6 +638,10 @@ video {
   color: #FFFFFF;
 }
 
+.action:hover {
+  background-color: #2B2B2B;
+}
+
 .actionIcon {
   display: block;
   width: 3rem;
@@ -670,6 +674,47 @@ video {
   font-size: 1rem;
   color: #404040;
   font-weight: 500;
+}
+
+.itemCard {
+  margin-bottom: 0.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #F8F8F8;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  width: 100%;
+  color: #404040;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.itemCard:hover {
+  background-color: #BFBFBF;
+}
+
+.attrCard {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #DFDFDF;
+  width: 100%;
+}
+
+.attrCard:hover {
+  background-color: #F8F8F8;
 }
 
 .sr-only {
