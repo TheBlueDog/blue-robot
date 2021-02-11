@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Blue Robot: Sandbox</title>
+	<!-- <link rel="stylesheet" type="text/css" href="build/tailwind.css"> -->
+    <script type="module" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@esri/calcite-components@1.0.0-beta.48/dist/calcite/calcite.css"/>
+</head>
+<body>
+  
+<calcite-shell dir="ltr" theme="light">
+
+  <!-- START GLOBAL NAV -->
+  <header slot="shell-header">
+  <h2>Blue Robot Industries</h2>
+  </header>
+  <!-- END GLOBAL NAV -->
+
+  <!-- START SHELL PANEL -->
+  <calcite-shell-panel slot="primary-panel" position="start">
+    <!-- START ACTION BAR -->
+    <calcite-action-bar theme="dark" slot="action-bar">
+      
+      <!-- START ACTION GROUP -->
+      <calcite-action-group>
+        <calcite-action scale="m" text="Overview" label="Overview" icon="home"></calcite-action>
+        <calcite-action scale="m" text="Contents" label="Contents" icon="map-contents"></calcite-action>
+        <calcite-action scale="m" text="Offline" label="Offline" icon="offline"></calcite-action>
+        <calcite-action scale="m" text="Settings" label="Settings" icon="gear"></calcite-action>
+        <calcite-action scale="m" text="Sharing" label="Sharing" icon="users"></calcite-action>
+      </calcite-action-group>
+      <!-- END ACTION GROUP -->
+
+      <!-- START ACTION GROUP -->
+      <calcite-action-group>
+        <calcite-action scale="m" text="Preview" label="Preview" icon="mobile"></calcite-action>
+      </calcite-action-group>
+      <!-- END ACTION GROUP -->
+
+      <!-- START ACTION GROUP -->
+      <calcite-action-group slot="bottom-actions">
+        <calcite-action scale="m" text="What's New?" label="What's New?" icon="mega-phone"></calcite-action>
+      </calcite-action-group>
+      <!-- END ACTION GROUP -->
+
+    </calcite-action-bar>
+    <!-- END ACTION BAR -->
+
+    <!-- START PANEL CONTENT -->
+ 
+    <!-- <calcite-flow dir="ltr" theme="light"> -->
+      <calcite-panel heading="Leading Panel" summary="" intl-back="Back" intl-open="Open" intl-close="Close">
+        <!-- <calcite-action slot="header-menu-actions" text-enabled="" text="Add" label="Add Item" icon="plus"></calcite-action>
+        <calcite-action slot="header-menu-actions" text-enabled="" text="Save" label="Save Item" icon="save"></calcite-action>
+        <calcite-action slot="header-menu-actions" text-enabled="" text="Layers" label="View Layers" icon="layers"></calcite-action> -->
+        <p>
+          Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant
+          felis elit ante. Nibh morbi massa curae; leo semper diam aenean congue
+          taciti eu porta. Varius faucibus ridiculus donec. Montes sit ligula purus
+          porta ante lacus habitasse libero cubilia purus! In quis congue arcu
+          maecenas felis cursus pellentesque nascetur porta donec non. Quisque,
+          rutrum ligula pharetra justo habitasse facilisis rutrum neque. Magnis
+          nostra nec nulla dictumst taciti consectetur. Non porttitor tempor orci
+          dictumst magna porta vitae.
+        </p>
+        <!-- <calcite-button slot="footer-actions" width="half">Save</calcite-button>
+        <calcite-button slot="footer-actions" width="half" appearance="clear">Cancel</calcite-button> -->
+      </calcite-panel>
+
+    <!-- </calcite-flow> -->
+
+    <!-- END PANEL CONTENT -->
+
+  </calcite-shell-panel>
+  <!-- END SHELL PANEL -->
+
+  <calcite-shell-center-row position="start" slot="center-row">
+    <calcite-panel heading="Center Panel" intl-back="Back" intl-open="Open" intl-close="Close">
+      <calcite-action text="Action" label="Action" slot="header-actions-end" icon="trash" appearance="solid" scale="m" calcite-hydrated=""></calcite-action>
+      <calcite-action text="Action" label="Action" slot="header-actions-end" icon="undo" appearance="solid" scale="m" calcite-hydrated=""></calcite-action>
+      <calcite-action text="Action" label="Action" slot="header-actions-end" icon="redo" appearance="solid" scale="m" calcite-hydrated=""></calcite-action>
+      <calcite-action text="Action" label="Action" slot="header-actions-end" icon="save" appearance="solid" scale="m" calcite-hydrated=""></calcite-action>
+      
+      <calcite-action slot="header-menu-actions" text-enabled="" text="Discard Changes" label="Discard Changes" icon="reset"></calcite-action>
+      <calcite-action slot="header-menu-actions" text-enabled="" text="Clear All" label="Clear All" icon="erase"></calcite-action>
+
+      <p>
+        Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant
+        felis elit ante. Nibh morbi massa curae; leo semper diam aenean congue
+        taciti eu porta. Varius faucibus ridiculus donec. Montes sit ligula purus
+        porta ante lacus habitasse libero cubilia purus! In quis congue arcu
+        maecenas felis cursus pellentesque nascetur porta donec non. Quisque,
+        rutrum ligula pharetra justo habitasse facilisis rutrum neque. Magnis
+        nostra nec nulla dictumst taciti consectetur. Non porttitor tempor orci
+        dictumst magna porta vitae.
+      </p>
+    </calcite-panel>
+  </calcite-shell-center-row>
+
+  <!-- START SHELL PANEL -->
+  <calcite-shell-panel slot="contextual-panel" position="end">
+
+    <!-- START ACTION BAR -->
+    <calcite-action-bar theme="light" slot="action-bar">
+      
+      <!-- START ACTION GROUP -->
+      <calcite-action-group>
+        <calcite-action text="Idea" label="Add Item" icon="lightbulb"></calcite-action>
+        <calcite-action text="Information" label="Save Item" icon="information"></calcite-action>
+      </calcite-action-group>
+      <!-- END ACTION GROUP -->
+
+      <!-- START ACTION GROUP -->
+      <calcite-action-group>
+        <calcite-action text="Question" label="View Layers" icon="question"></calcite-action>
+      </calcite-action-group>
+      <!-- END ACTION GROUP -->
+
+    </calcite-action-bar>
+    <!-- END ACTION BAR -->
+
+    <!-- START PANEL CONTENT -->
+    <calcite-panel heading="Trailing Panel" summary="" intl-back="Back" intl-open="Open" intl-close="Close">
+      <!-- <calcite-action slot="header-menu-actions" text-enabled="" text="Add" label="Add Item" icon="plus"></calcite-action>
+      <calcite-action slot="header-menu-actions" text-enabled="" text="Save" label="Save Item" icon="save"></calcite-action>
+      <calcite-action slot="header-menu-actions" text-enabled="" text="Layers" label="View Layers" icon="layers"></calcite-action> -->
+      <p>
+        Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant
+        felis elit ante. Nibh morbi massa curae; leo semper diam aenean congue
+        taciti eu porta. Varius faucibus ridiculus donec. Montes sit ligula purus
+        porta ante lacus habitasse libero cubilia purus! In quis congue arcu
+        maecenas felis cursus pellentesque nascetur porta donec non. Quisque,
+        rutrum ligula pharetra justo habitasse facilisis rutrum neque. Magnis
+        nostra nec nulla dictumst taciti consectetur. Non porttitor tempor orci
+        dictumst magna porta vitae.
+      </p>
+    </calcite-panel>
+    <!-- END PANEL CONTENT -->
+
+  </calcite-shell-panel>
+  <!-- END SHELL PANEL -->
+
+</calcite-shell>
+
+
+
+</body>
+</html>
