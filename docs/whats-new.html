@@ -8,42 +8,53 @@
     <script type="module" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.js"></script>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@esri/calcite-components@1.0.0-beta.49/dist/calcite/calcite.css"/>
-
-
 </head>
 <body>
 
-
+ 
 <calcite-shell dir="ltr" theme="light">
   <header slot="shell-header">
     <h2>My Shell Header</h2>
   </header>
   <calcite-shell-panel slot="primary-panel" position="start">
     <calcite-action-bar theme="dark" slot="action-bar">
+      <!-- START ACTION GROUP -->
       <calcite-action-group>
-        <calcite-action
-          text="Add"
-          label="Add Item"
-          icon="plus"
-        ></calcite-action>
-        <calcite-action
-          text="Save"
-          label="Save Item"
-          icon="save"
-        ></calcite-action>
+        <calcite-action scale="m" text="Overview" label="Overview" icon="home"></calcite-action>
+        <calcite-action scale="m" text="Contents" label="Contents" icon="map-contents"></calcite-action>
+        <calcite-action scale="m" text="Offline" label="Offline" icon="offline"></calcite-action>
+        <calcite-action scale="m" text="Settings" label="Settings" icon="gear"></calcite-action>
+        <calcite-action scale="m" text="Sharing" label="Sharing" icon="users"></calcite-action>
       </calcite-action-group>
-      
+      <!-- END ACTION GROUP -->
+
+      <!-- START ACTION GROUP -->
       <calcite-action-group>
-        <calcite-action
-          text="What's New"
-          label="What's New"
-          icon="mega-phone"
-          id="tip-manager-button"
-        ></calcite-action>
+        <calcite-action scale="m" text="Preview" label="Preview" icon="mobile"></calcite-action>
       </calcite-action-group>
+      <!-- END ACTION GROUP -->
+
+      <!-- START ACTION GROUP -->
+      <calcite-action-group slot="bottom-actions">
+        <calcite-action scale="m" text="What's New?" label="What's New?" icon="mega-phone" id="tip-manager-button"></calcite-action>
+      </calcite-action-group>
+      <!-- END ACTION GROUP -->
 
     </calcite-action-bar>
-    <p>My Leading Panel</p>
+    
+      <calcite-panel heading="Leading Panel" summary="" intl-back="Back" intl-open="Open" intl-close="Close">
+        <p>
+          Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant
+          felis elit ante. Nibh morbi massa curae; leo semper diam aenean congue
+          taciti eu porta. Varius faucibus ridiculus donec. Montes sit ligula purus
+          porta ante lacus habitasse libero cubilia purus! In quis congue arcu
+          maecenas felis cursus pellentesque nascetur porta donec non. Quisque,
+          rutrum ligula pharetra justo habitasse facilisis rutrum neque. Magnis
+          nostra nec nulla dictumst taciti consectetur. Non porttitor tempor orci
+          dictumst magna porta vitae.
+        </p>
+      </calcite-panel>
+
   </calcite-shell-panel>
 
 
@@ -52,69 +63,80 @@
   </div>
 
 
-        <calcite-tip-manager
-        dir="ltr"
-        intl-close="Close"
-        intl-default-title="What's new in Field Maps 9.1.0"
-        intl-pagination-label=""
-        intl-next="Next"
-        intl-previous="Previous"
-        theme="light"
-        slot="center-row"
-        id="tip-manager"
-        closed
-        >
-        <!-- <calcite-tip-group group-title="What's new in Field Maps 9.1.0"> -->
-            <calcite-tip heading="New Input Type: Barcode Scanners">
-            <p>
-                This tip has an image that is a pretty tall. And the text will run out
-                before the end of the image.
-            </p>
-            </calcite-tip>
-            <calcite-tip heading="New Input Type: Radio Buttons">
-            <p>
-                This tip has an image that is a pretty tall. And the text will run out
-                before the end of the image.
-            </p>
-            </calcite-tip>
+  <calcite-tip-manager
+  dir="ltr"
+  intl-close="Close"
+  intl-default-title="What's new in Field Maps 9.1.0"
+  intl-pagination-label=""
+  intl-next="Next"
+  intl-previous="Previous"
+  theme="light"
+  slot="center-row"
+  id="tip-manager"
+  closed
+  >
+    <calcite-tip heading="My First Tip">
+      <img slot="thumbnail" src="https://placeimg.com/640/480/animals" alt="This is an image." />
+      Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant felis
+      elit ante. Nibh morbi massa curae; leo semper diam aenean congue taciti eu
+      porta. Varius faucibus ridiculus donec. Montes sit ligula purus porta ante
+      lacus habitasse libero cubilia purus! In quis congue arcu maecenas felis
+      cursus pellentesque nascetur porta donec non. Quisque, rutrum ligula pharetra
+      justo habitasse facilisis rutrum neque. Magnis nostra nec nulla dictumst
+      taciti consectetur. Non porttitor tempor orci dictumst magna porta vitae.
+      <a href="http://www.esri.com">This is a "link".</a>
+    </calcite-tip>
+
+    <calcite-tip heading="My Second Tip">
+      <img slot="thumbnail" src="https://placeimg.com/640/480/tech" alt="This is an image." />
+      Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant felis
+      elit ante. Nibh morbi massa curae; leo semper diam aenean congue taciti eu
+      porta. Varius faucibus ridiculus donec. Montes sit ligula purus porta ante
+      lacus habitasse libero cubilia purus! In quis congue arcu maecenas felis
+      cursus pellentesque nascetur porta donec non. Quisque, rutrum ligula pharetra
+      justo habitasse facilisis rutrum neque. Magnis nostra nec nulla dictumst
+      taciti consectetur. Non porttitor tempor orci dictumst magna porta vitae.
+      <a href="http://www.esri.com">This is a "link".</a>
+    </calcite-tip>
+
+    <calcite-tip heading="My Third Tip">
+      <img slot="thumbnail" src="https://placeimg.com/640/480/people" alt="This is an image." />
+      Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant felis
+      elit ante. Nibh morbi massa curae; leo semper diam aenean congue taciti eu
+      porta. Varius faucibus ridiculus donec. Montes sit ligula purus porta ante
+      lacus habitasse libero cubilia purus! In quis congue arcu maecenas felis
+      cursus pellentesque nascetur porta donec non. Quisque, rutrum ligula pharetra
+      justo habitasse facilisis rutrum neque. Magnis nostra nec nulla dictumst
+      taciti consectetur. Non porttitor tempor orci dictumst magna porta vitae.
+      <a href="http://www.esri.com">This is a "link".</a>
+    </calcite-tip>
+
+  </calcite-tip-manager>
 
 
-            <calcite-tip dir="ltr" heading="My Tip">
-              <img slot="thumbnail" src="https://placeimg.com/1000/600/city" alt="This is an image." />
-              Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant felis
-              elit ante. Nibh morbi massa curae; leo semper diam aenean congue taciti eu
-              porta. Varius faucibus ridiculus donec. Montes sit ligula purus porta ante
-              lacus habitasse libero cubilia purus! In quis congue arcu maecenas felis
-              cursus pellentesque nascetur porta donec non. Quisque, rutrum ligula pharetra
-              justo habitasse facilisis rutrum neque. Magnis nostra nec nulla dictumst
-              taciti consectetur. Non porttitor tempor orci dictumst magna porta vitae.
-              <a href="http://www.esri.com">This is a "link".</a>
-            </calcite-tip>
-
-
-
-
-        <!-- </calcite-tip-group> -->
-        </calcite-tip-manager>
-
-
-  <calcite-shell-panel slot="contextual-panel" position="end">
-    <p>My Trailing Panel</p>
+  <calcite-shell-panel heading="Trailing Panel" slot="contextual-panel">
+    <p>Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant
+    felis elit ante. Nibh morbi massa curae; leo semper diam aenean congue
+    taciti eu porta. Varius faucibus ridiculus donec. Montes sit ligula purus
+    porta ante lacus habitasse libero cubilia purus! In quis congue arcu
+    maecenas felis cursus pellentesque nascetur porta donec non. Quisque,
+    rutrum ligula pharetra justo habitasse facilisis rutrum neque. Magnis
+    nostra nec nulla dictumst taciti consectetur. Non porttitor tempor orci
+    dictumst magna porta vitae.</p>
   </calcite-shell-panel>
 
 </calcite-shell>
 
-
-  <!-- Script to make action launch and close Tip Manager -->
-  <script>
-      const tipManagerButton = document.getElementById("tip-manager-button");
-      const tipManager = document.getElementById("tip-manager");
-      tipManagerButton.addEventListener("click", function() {
-      tipManager.hasAttribute("closed")
-      ? tipManager.removeAttribute("closed")
-      : tipManager.setAttribute("closed", "");
-      });
-  </script>
+<!-- Script to make action launch and close Tip Manager -->
+<script>
+    const tipManagerButton = document.getElementById("tip-manager-button");
+    const tipManager = document.getElementById("tip-manager");
+    tipManagerButton.addEventListener("click", function() {
+    tipManager.hasAttribute("closed")
+    ? tipManager.removeAttribute("closed")
+    : tipManager.setAttribute("closed", "");
+    });
+</script>
 
 </body>
 </html>
