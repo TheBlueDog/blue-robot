@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Blue Robot: Sandbox</title>
+	<!-- <link rel="stylesheet" type="text/css" href="build/tailwind.css"> -->
+    <script type="module" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@esri/calcite-components@1.0.0-beta.49/dist/calcite/calcite.css"/>
+
+
+</head>
+<body>
+
+
+<calcite-shell dir="ltr" theme="light">
+  <header slot="shell-header">
+    <h2>My Shell Header</h2>
+  </header>
+  <calcite-shell-panel slot="primary-panel" position="start">
+    <calcite-action-bar theme="dark" slot="action-bar">
+      <calcite-action-group>
+        <calcite-action
+          text="Add"
+          label="Add Item"
+          icon="plus"
+        ></calcite-action>
+        <calcite-action
+          text="Save"
+          label="Save Item"
+          icon="save"
+        ></calcite-action>
+      </calcite-action-group>
+      
+      <calcite-action-group>
+        <calcite-action
+          text="What's New"
+          label="What's New"
+          icon="mega-phone"
+          id="tip-manager-button"
+        ></calcite-action>
+      </calcite-action-group>
+
+    </calcite-action-bar>
+    <p>My Leading Panel</p>
+  </calcite-shell-panel>
+
+
+  <div>
+  <!-- This is where the map would be -->
+  </div>
+
+
+        <calcite-tip-manager
+        dir="ltr"
+        intl-close="Close"
+        intl-default-title="What's new in Field Maps 9.1.0"
+        intl-pagination-label=""
+        intl-next="Next"
+        intl-previous="Previous"
+        theme="light"
+        slot="center-row"
+        id="tip-manager"
+        closed
+        >
+        <!-- <calcite-tip-group group-title="What's new in Field Maps 9.1.0"> -->
+            <calcite-tip heading="New Input Type: Barcode Scanners">
+            <p>
+                This tip has an image that is a pretty tall. And the text will run out
+                before the end of the image.
+            </p>
+            </calcite-tip>
+            <calcite-tip heading="New Input Type: Radio Buttons">
+            <p>
+                This tip has an image that is a pretty tall. And the text will run out
+                before the end of the image.
+            </p>
+            </calcite-tip>
+
+
+            <calcite-tip dir="ltr" heading="My Tip">
+              <img slot="thumbnail" src="https://placeimg.com/1000/600/city" alt="This is an image." />
+              Enim nascetur erat faucibus ornare varius arcu fames bibendum habitant felis
+              elit ante. Nibh morbi massa curae; leo semper diam aenean congue taciti eu
+              porta. Varius faucibus ridiculus donec. Montes sit ligula purus porta ante
+              lacus habitasse libero cubilia purus! In quis congue arcu maecenas felis
+              cursus pellentesque nascetur porta donec non. Quisque, rutrum ligula pharetra
+              justo habitasse facilisis rutrum neque. Magnis nostra nec nulla dictumst
+              taciti consectetur. Non porttitor tempor orci dictumst magna porta vitae.
+              <a href="http://www.esri.com">This is a "link".</a>
+            </calcite-tip>
+
+
+
+
+        <!-- </calcite-tip-group> -->
+        </calcite-tip-manager>
+
+
+  <calcite-shell-panel slot="contextual-panel" position="end">
+    <p>My Trailing Panel</p>
+  </calcite-shell-panel>
+
+</calcite-shell>
+
+
+  <!-- Script to make action launch and close Tip Manager -->
+  <script>
+      const tipManagerButton = document.getElementById("tip-manager-button");
+      const tipManager = document.getElementById("tip-manager");
+      tipManagerButton.addEventListener("click", function() {
+      tipManager.hasAttribute("closed")
+      ? tipManager.removeAttribute("closed")
+      : tipManager.setAttribute("closed", "");
+      });
+  </script>
+
+</body>
+</html>
